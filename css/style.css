@@ -1,0 +1,81 @@
+body{
+    margin: 0 auto;
+    background-color:white;
+    background:url("../assets/bg2.jpg") fixed  center center;
+    background-size: cover;
+}
+main{
+    
+    height: 100%;
+    }
+h1{
+    text-align: center;
+}
+form{
+    margin: 100px auto;
+    padding-top: 5px;
+    width: 50%;
+    height: 78vh;
+    border: 10px solid white;
+    background-color: aqua;
+}
+input{
+    width: 40%;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: white;
+}
+.bloc{
+    margin: 5px auto;
+    width: 90%;
+}
+textarea{
+    margin-left: 20px;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px ;
+   border: none;
+}
+.enetete{
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+button{
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    margin-left: 20px;
+}
+/*tableau*/
+table{
+    background-color:lightgray;
+    width:80%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid black;
+    border-collapse:collapse;
+}
+thead,tbody,th,tr,td,caption{
+    border: 2px solid transparent;
+    border-collapse: 1px solide black;
+    padding: 10px;
+}
+thead{
+    background-color: rgb(14, 233, 98);
+}
+caption,td{
+    color: black;
+    background-color: white;
+}
+.article{
+   background-color: white; 
+   width: 30%;
+   margin: auto;
+   text-align: justify;
+   border: 2px solid transparent;
+   padding:5px;
+}
